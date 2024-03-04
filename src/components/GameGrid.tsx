@@ -6,7 +6,7 @@ import GameCardContainer from "./GameCardContainer";
 
 const GameGrid = () => {
   const { games, error, isLoading } = useGames();
-  const skelotons = [1, 2, 3, 4, 5, 6];
+  const skelotons = [1, 2, 3, 4, 5, 6, 7, 8];
 
   return (
     <>
