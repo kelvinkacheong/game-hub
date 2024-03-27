@@ -13,7 +13,8 @@ const GameGrid = ({ gameQuery }: GameGridProps) => {
   const { data, error, isLoading } = useGames(
     gameQuery.genre,
     gameQuery.platform,
-    gameQuery.sortOrder
+    gameQuery.sortOrder,
+    gameQuery.searchText
   );
   const skeletons = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
