@@ -13,7 +13,7 @@
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "axios": "^1.6.7",
-    "framer-motion": "^11.0.6",
+    "framer-motion": "^4.1.17",
     "next": "^16.0.7",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
